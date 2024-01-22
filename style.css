@@ -71,13 +71,38 @@ p {
 button {
   background-color: blue;
   color: white;
-  padding: 10px;
+  padding: 15px;
   border-radius: 5px;
 }
 
+/*services*/
 
+.services-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 2%;
+  padding-left: 2%;
+  margin-bottom: 20px;
+
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap : 13px;
+  flex-wrap: wrap;
+}
+
+h2 {
+  text-align: center;
+}
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
@@ -90,14 +115,17 @@ button {
     border-style: dashed;
     border-radius: 2px;
     border-color: blueviolet;
+    max-width: 200px;
+    min-width: 170px;
   }
 
-  .services {
-    flex: 1;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
+  .card img {
+    max-width: 150px;
+    min-width : 120px;
+    height: auto;
   }
+
+  
 
 
   .footer {
