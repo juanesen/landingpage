@@ -7,12 +7,13 @@ body {
 /*header*/
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   background-color: blueviolet;
   border-bottom: solid 20px;
   border-style: dotted;
   border-color: blue;
+  padding : auto 15%;
 }
 
 h3 {
@@ -33,17 +34,18 @@ ul {
 .hero {
   display: flex;
   background-color: blueviolet;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap: 30px;
   flex-wrap: wrap;
-  padding-right: 2%;
-  padding-left: 2%;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 .hero-right {
   display: flex;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 img {
@@ -126,12 +128,66 @@ h2 {
   }
 
   
+/*quote section */
+
+.quote-section {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 3%;
+  margin: 5% 30%;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  max-width: 700px;
+}
+
+.band {
+  text-align: right;
+  text-transform: uppercase;
+}
+
+/*call to action */
+
+.calltoaction {
+  display: flex;
+  background-color: blue;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5% 15%;
+}
+
+.calltoaction-text {
+  color : white ;
+}
+
+.signup-2 {
+  background-color: blueviolet;
+  padding: 10px 60px;
+  
+}
+
+h5 {
+  font-size: 20px;
+}
+
+.calltoaction-text div {
+  font-weight: 100;
+}
 
 
-  .footer {
-    display: flex;
-    height: 72px;
-    background: #eee;
-    color: darkmagenta;
-    justify-content: space-around;
-  }
+/*footer*/
+
+.footer {
+  display: flex;
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  justify-content: center;
+  align-items: center;
+}
